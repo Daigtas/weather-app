@@ -1,0 +1,267 @@
+.weather-icon {
+  display: inline-flex;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure proper sizing of SVG icons */
+.weather-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Remove the ::after pseudo element that was creating the radial background */
+.weather-icon::after {
+  content: none;
+}
+
+.metecon {
+  display: inline-block;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));
+}
+
+.icon-filled {
+  font-weight: 600;
+  -webkit-text-stroke: 0.4px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.icon-size-small {
+  font-size: 22px;
+}
+
+.icon-size-medium {
+  font-size: 34px;
+}
+
+.icon-size-large {
+  font-size: 50px;
+}
+
+/* Colorful icon styles */
+.icon-sunny {
+  color: #ff9800;
+}
+
+.icon-partly-cloudy {
+  color: #81d4fa;
+}
+
+.icon-cloudy {
+  color: #78909c;
+}
+
+.icon-fog {
+  color: #b0bec5;
+}
+
+.icon-rain {
+  color: #4fc3f7;
+}
+
+.icon-snow {
+  color: #90caf9;
+}
+
+.icon-thunder {
+  color: #ffc107;
+}
+
+.icon-humidity {
+  color: #29b6f6;
+}
+
+.icon-precipitation {
+  color: #4dd0e1;
+}
+
+.icon-wind {
+  color: #7e57c2;
+}
+
+.icon-sunny-filled {
+  color: #ff9d00;
+  filter: drop-shadow(0 0 8px rgba(255, 157, 0, 0.6));
+}
+
+.icon-partly-cloudy-filled {
+  color: #3498db;
+  filter: drop-shadow(0 0 5px rgba(52, 152, 219, 0.5));
+}
+
+.icon-cloudy-filled {
+  color: #7f8c8d;
+  filter: drop-shadow(0 0 5px rgba(127, 140, 141, 0.5));
+}
+
+.icon-fog-filled {
+  color: #95a5a6;
+  filter: drop-shadow(0 0 5px rgba(149, 165, 166, 0.5));
+}
+
+.icon-rain-filled {
+  color: #3498db;
+  filter: drop-shadow(0 0 5px rgba(52, 152, 219, 0.6));
+}
+
+.icon-snow-filled {
+  color: #3498db;
+  filter: drop-shadow(0 0 8px rgba(209, 238, 255, 0.8));
+}
+
+.icon-thunder-filled {
+  color: #f39c12;
+  filter: drop-shadow(0 0 10px rgba(243, 156, 18, 0.7));
+}
+
+.icon-humidity-filled {
+  color: #3498db;
+  filter: drop-shadow(0 0 5px rgba(52, 152, 219, 0.5));
+}
+
+.icon-precipitation-filled {
+  color: #2980b9;
+  filter: drop-shadow(0 0 5px rgba(41, 128, 185, 0.5));
+}
+
+.icon-wind-filled {
+  color: #9b59b6;
+  filter: drop-shadow(0 0 5px rgba(155, 89, 182, 0.5));
+}
+
+.icon-sunny-filled::after,
+.icon-partly-cloudy-filled::after,
+.icon-cloudy-filled::after,
+.icon-fog-filled::after,
+.icon-rain-filled::after,
+.icon-snow-filled::after,
+.icon-thunder-filled::after,
+.icon-humidity-filled::after,
+.icon-precipitation-filled::after,
+.icon-wind-filled::after {
+  content: none;
+}
+
+[class*="meteocons:"] {
+  display: inline-block;
+  line-height: 1;
+}
+
+.wi-rain,
+.wi-raindrops,
+.wi-rain-mix {
+  animation: rain-fall 2s infinite linear;
+}
+
+.wi-snow,
+.wi-snowflake-cold,
+.wi-snow-wind {
+  animation: snow-fall 3s infinite ease-in-out;
+}
+
+.wi-lightning {
+  animation: lightning-flash 3s infinite;
+}
+
+.wi-windy {
+  animation: wind-blow 3s infinite ease-in-out;
+}
+
+.metecon-rain,
+.metecon-drizzle {
+  animation: rain-fall 2s infinite linear;
+}
+
+.metecon-snow,
+.metecon-snowflake {
+  animation: snow-fall 3s infinite ease-in-out;
+}
+
+.metecon-thunderstorms {
+  animation: lightning-flash 3s infinite;
+}
+
+.metecon-wind {
+  animation: wind-blow 3s infinite ease-in-out;
+}
+
+.animate-rain {
+  animation: rain-fall 2s infinite linear;
+}
+
+.animate-snow {
+  animation: snow-fall 3s infinite ease-in-out;
+}
+
+.animate-thunder {
+  animation: lightning-flash 3s infinite;
+}
+
+.animate-wind {
+  animation: wind-blow 3s infinite ease-in-out;
+}
+
+@keyframes rain-fall {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes snow-fall {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(3px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes lightning-flash {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  51% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0.6;
+  }
+  53% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes wind-blow {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

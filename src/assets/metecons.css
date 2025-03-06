@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Metecons";
+  src: url("https://cdn.jsdelivr.net/npm/metecons@1.0.2/dist/fonts/metecons.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/npm/metecons@1.0.2/dist/fonts/metecons.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.metecon {
+  font-family: "Metecons" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.metecon-clear-day:before {
+  content: "\e900";
+}
+.metecon-clear-night:before {
+  content: "\e901";
+}
+.metecon-cloudy:before {
+  content: "\e902";
+}
+.metecon-drizzle:before {
+  content: "\e903";
+}
+.metecon-fog:before {
+  content: "\e904";
+}
+.metecon-hail:before {
+  content: "\e905";
+}
+.metecon-haze:before {
+  content: "\e906";
+}
+.metecon-humidity:before {
+  content: "\e907";
+}
+.metecon-hurricane:before {
+  content: "\e908";
+}
+.metecon-mist:before {
+  content: "\e909";
+}
+.metecon-moon-first-quarter:before {
+  content: "\e90a";
+}
+.metecon-moon-full:before {
+  content: "\e90b";
+}
+.metecon-moon-last-quarter:before {
+  content: "\e90c";
+}
+.metecon-moon-new:before {
+  content: "\e90d";
+}
+.metecon-moon-waning-crescent:before {
+  content: "\e90e";
+}
+.metecon-moon-waning-gibbous:before {
+  content: "\e90f";
+}
+.metecon-moon-waxing-crescent:before {
+  content: "\e910";
+}
+.metecon-moon-waxing-gibbous:before {
+  content: "\e911";
+}
+.metecon-not-available:before {
+  content: "\e912";
+}
+.metecon-partly-cloudy-day:before {
+  content: "\e913";
+}
+.metecon-partly-cloudy-night:before {
+  content: "\e914";
+}
+.metecon-pressure-high:before {
+  content: "\e915";
+}
+.metecon-pressure-low:before {
+  content: "\e916";
+}
+.metecon-pressure:before {
+  content: "\e917";
+}
+.metecon-rain:before {
+  content: "\e918";
+}
+.metecon-raindrop:before {
+  content: "\e919";
+}
+.metecon-sleet:before {
+  content: "\e91a";
+}
+.metecon-smog:before {
+  content: "\e91b";
+}
+.metecon-smoke:before {
+  content: "\e91c";
+}
+.metecon-snow:before {
+  content: "\e91d";
+}
+.metecon-snowflake:before {
+  content: "\e91e";
+}
+.metecon-sunrise:before {
+  content: "\e91f";
+}
+.metecon-sunset:before {
+  content: "\e920";
+}
+.metecon-temperature-decrease:before {
+  content: "\e921";
+}
+.metecon-temperature-increase:before {
+  content: "\e922";
+}
+.metecon-thermometer:before {
+  content: "\e923";
+}
+.metecon-thunderstorms:before {
+  content: "\e924";
+}
+.metecon-tornado:before {
+  content: "\e925";
+}
+.metecon-umbrella:before {
+  content: "\e926";
+}
+.metecon-uv-index:before {
+  content: "\e927";
+}
+.metecon-wind:before {
+  content: "\e928";
+}
+.metecon-windsock:before {
+  content: "\e929";
+}

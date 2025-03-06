@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  width: 80vw;
+  max-width: 768px;
+  background: white;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  outline: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+.app-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    width: 95vw;
+    border-width: 0;
+  }
+}
