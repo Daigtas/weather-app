@@ -53,7 +53,7 @@ const WeatherCard = () => {
       <div className="city-info">
         <div className="city-with-icon">
           <Text variant="title">{city}</Text>
-          <Icons type={weatherInfo.icon} size="medium" />
+          <Icons type={weatherInfo.icon} size="large" />
         </div>
         <Text variant="subtitle">{weatherInfo.description}</Text>
       </div>
@@ -83,14 +83,17 @@ const WeatherCard = () => {
         
         <div className="weather-details">
           <div className="detail-item">
+            <Text>Precipitation:</Text>
             <Icons type="precipitation" size="small" />
             <Text>{current.precipitation} mm</Text>
           </div>
           <div className="detail-item">
+            <Text>Humidity:</Text>
             <Icons type="humidity" size="small" />
             <Text>{current.humidity}%</Text>
           </div>
           <div className="detail-item">
+            <Text>Wind speed:</Text>
             <Icons type="wind" size="small" />
             <Text>{current.windSpeed} km/h</Text>
           </div>

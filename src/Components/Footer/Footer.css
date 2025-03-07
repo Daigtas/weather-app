@@ -15,3 +15,18 @@
   gap: 10px;
   list-style: none;
 }
+
+.search-history-link {
+  background: none;
+  border: none;
+  color: #4b3fae;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-size: 12px;
+  transition: color 0.2s;
+}
+
+.search-history-link:hover {
+  color: #231d76;
+}
