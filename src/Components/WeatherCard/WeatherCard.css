@@ -27,7 +27,6 @@
 .city-info {
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 2rem; */
 }
 
 .city-with-icon {
@@ -41,7 +40,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* margin-bottom: 3rem; */
 }
 
 .temperature-section {
@@ -71,7 +69,7 @@
 
 .unit-divider {
   margin: 0 4px;
-  color: #999; /* Changed from light color to medium gray */
+  color: #999;
 }
 
 .weather-details {
@@ -84,7 +82,7 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 12px;
-  color: #555; /* Added for better contrast */
+  color: #555;
 }
 
 .detail-item i {
