@@ -116,6 +116,10 @@ const WeatherCard = () => {
               <Icons type={dayWeatherInfo.icon} size="large" />
               <div className="day-temperatures">
                 <Text className="forecast-temp">{Math.round(day.temperatureMax)}°</Text>
+                <div className="forecast-feels-like">
+                  <Text className="forecast-feels-like-label">Feels like</Text>
+                  <Text className="forecast-feels-like-temp">{Math.round(day.apparentTemperatureMax)}°</Text>
+                </div>
               </div>
             </div>
           );

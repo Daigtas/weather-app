@@ -194,6 +194,25 @@
   width: 100%;
 }
 
+.forecast-feels-like {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+.forecast-feels-like-label {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.forecast-feels-like-temp {
+  font-size: 12px;
+  font-weight: 500;
+}
+
 @media (max-width: 580px) {
   .forecast-cards {
     grid-template-columns: repeat(3, 1fr);
