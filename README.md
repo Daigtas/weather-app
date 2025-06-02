@@ -74,7 +74,7 @@ bash
     Open http://localhost:5173 in your browser
 
 Project Structure 📂
-
+``
 weather-app/
 ├── public/            # Static assets
 ├── src/
