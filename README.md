@@ -82,4 +82,3 @@ Acknowledgements
     Weather data provided by OpenWeatherMap
 
     Icons from Weather Icons
-![alt text](http://daigtas.lt/projektai/weather-app/screenshot.png)
