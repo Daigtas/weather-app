@@ -73,26 +73,42 @@ bash
 
     Open http://localhost:5173 in your browser
 
-Project Structure 📂
-``
+## Project Structure 📂
+
 weather-app/
-├── public/            # Static assets
+├── public/ # Static assets
+│ ├── vite.svg # Vite default logo
+│ └── ... # Other static files
 ├── src/
-│   ├── assets/        # Images, icons
-│   ├── components/    # Reusable components
-│   │   ├── Forecast/
-│   │   ├── Search/
-│   │   ├── WeatherCard/
-│   │   └── ...
-│   ├── contexts/      # Context providers
-│   ├── hooks/         # Custom hooks
-│   ├── types/         # TypeScript interfaces
-│   ├── utils/         # Utility functions
-│   ├── App.tsx        # Main App component
-│   └── main.tsx       # Entry point
-├── .env.example       # Environment variables template
-├── vite.config.ts     # Vite configuration
-└── ...
+│ ├── assets/ # Application assets
+│ │ ├── icons/ # SVG icons
+│ │ └── images/ # Image files
+│ ├── components/ # Reusable UI components
+│ │ ├── common/ # Generic components (buttons, etc.)
+│ │ ├── CurrentWeather/ # Current weather display
+│ │ ├── Forecast/ # Forecast components
+│ │ ├── Layout/ # Layout components
+│ │ ├── Location/ # Location-related components
+│ │ └── Search/ # Search components
+│ ├── constants/ # Constant values
+│ ├── context/ # React context providers
+│ ├── hooks/ # Custom React hooks
+│ ├── services/ # API services
+│ ├── types/ # TypeScript type definitions
+│ ├── utils/ # Utility functions
+│ ├── App.tsx # Main application component
+│ ├── main.tsx # Application entry point
+│ └── vite-env.d.ts # Vite type declarations
+├── .env.example # Environment variables template
+├── .eslintrc.cjs # ESLint configuration
+├── .gitignore # Git ignore rules
+├── index.html # Main HTML file
+├── package.json # Project dependencies
+├── README.md # Project documentation
+├── tsconfig.json # TypeScript configuration
+├── tsconfig.node.json # Node-specific TS config
+└── vite.config.ts # Vite build configuration
+
 
 Available Scripts 📜
 
