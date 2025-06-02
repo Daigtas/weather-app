@@ -2,8 +2,6 @@
 
 A responsive weather application built with React, TypeScript, and Tailwind CSS that displays current weather conditions for any location.
 
-![Weather App Screenshot](screenshot.png) <!-- Add your screenshot here -->
-
 ## Features
 
 - Real-time weather data from OpenWeatherMap API
