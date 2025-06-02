@@ -5,7 +5,7 @@ A beautiful, responsive weather application built with React, TypeScript, and Ta
 [![Live Demo](https://img.shields.io/badge/demo-live-green)](https://weather.sandboxas.lt/)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-![Weather App Screenshot](screenshot.png) <!-- Replace with your actual screenshot -->
+![Screenshot](https://weather.sandboxas.lt/screenshot.png) <!-- Replace with your actual screenshot -->
 
 ## Features ✨
 
